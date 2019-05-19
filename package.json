@@ -1,0 +1,34 @@
+{
+  "name": "apia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server.js --exec babel-node -e js"
+  },
+  "author": "Zakaria Abdisalam",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "^1.18.3",
+    "connect-flash": "*",
+    "cookie-parser": "*",
+    "express": "^4.16.4",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "*",
+    "mongoose": "^5.5.2",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*",
+    "nodemon": "^1.18.11"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
